@@ -14,26 +14,30 @@ import {
 import { IoPlaySharp } from "react-icons/io5";
 import { MdFavorite } from "react-icons/md"
  
+ 
 export const MainVisual = ({
-  headeLine,
+  ButtonLabel,
+  ButtonLabel2,
+  Img2
   // topLine,
   // Img,
   // ButtonLabel,
-  // ButtonLabel2,
 }) => {
      return (
        <>
          <MainVisualWrapper>
            <MainVisualForm>
              <ImgWrap>
-                <MainVisualVideo></MainVisualVideo>  
+                <MainVisualVideo 
+                src={Img2}
+                ></MainVisualVideo>  
                 <MainVisualH1>Tom & Jerry</MainVisualH1>
                 <MainVisualButton>
                   <IoPlaySharp/>
-                  Play</MainVisualButton>
+                  {ButtonLabel}</MainVisualButton>
                 <MainVisualButton2>
                   <MdFavorite/>
-                  Favorite</MainVisualButton2>
+                  {ButtonLabel2}</MainVisualButton2>
              </ImgWrap>
            </MainVisualForm>
          </MainVisualWrapper>

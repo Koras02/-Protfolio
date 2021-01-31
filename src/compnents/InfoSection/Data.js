@@ -5,6 +5,7 @@ import Img4 from "../../images/SweetHome.jpg";
 import Img5 from '../../images/Avengers.jpg';
 import Img6 from '../../images/black.jpg';
 import Img7 from '../../images/Avengers.jpg';
+import Img8 from '../../images/Avengers.jpg';
 import Video from '../../pages/MainVisual/Trailer/Trailer.mp4';
  
 
@@ -71,13 +72,14 @@ export const homeObjThree = {
   primary:true,
   darkText:false,
   table:true,
-  img7: Img7,
+  img: Img7,
+  img2:Img8,
   size: "big",
   width: '1000px',
   title: '신작',
   video: Video,
   ButtonLabel: "바로 보기",
   ButtonLabel2: "북마크 추가",
-  Video:  Video,
+
 };
  

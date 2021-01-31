@@ -7,7 +7,6 @@ export const FormHeader = styled.div`
   width: 100%;
   background: #000;
   height: 100px;
-  border: 1px solid #000;
   display:inline-block;
 `;
 
@@ -61,7 +60,6 @@ export const HeaderInput = styled.input`
 export const FormBody = styled.div`
    width:100%;
    height:500px;
-   border:1px solid #000;
 `
 
 export const FormH1 = styled.div`
